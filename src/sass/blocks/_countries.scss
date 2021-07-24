@@ -1,0 +1,29 @@
+.countries {
+    min-height: 85px;
+    margin-top: 20px;
+    display: flex;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 35px 100%;
+        grid-template-rows: 14px auto;
+        margin-right: 45px;
+    }
+    &__flag {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    &__subheader {
+        p {
+            display: inline-block;
+            margin: 0;
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 17px;
+        }
+    }
+}
