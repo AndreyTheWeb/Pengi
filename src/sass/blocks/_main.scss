@@ -1,0 +1,53 @@
+.main {
+    min-height: 700px;
+    background: url('/src/img/headbg.png') no-repeat center/cover;
+    position: relative;
+    &__logo {
+        display: inline-block;
+        padding-top: 40px;
+    }
+    nav {
+        display: block;
+        margin-top: 65px;
+        float: right;
+        ul {
+            width: 540px;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li {
+                a {
+                    font-weight: bold;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    h2 {
+        margin-top: 140px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 900;
+        width: 700px;
+    }
+    h3 {
+        margin-top: 30px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        width: 500px;
+    }
+    .btn {
+        margin-top: 45px;
+    }
+    &__phone {
+        position: absolute;
+        bottom: 0px;
+        right: 22%;
+    }
+}
