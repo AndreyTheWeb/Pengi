@@ -1,0 +1,42 @@
+.solutions {
+    background: url('../img/solutionsbg.png') no-repeat center/cover;
+    min-height: 890px;
+    h3 {
+        width: 620px;
+        padding-top: 85px;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    ul {
+        width: 845px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        margin: 35px auto;
+        border: 2px solid #ffffff;
+        padding: 7px 75px;
+        border-radius: 5px;
+        li {
+            display: inline;
+            border-left: 1px solid #bbb;
+            padding: 0 0px 0 15px;
+            a {
+                color: #ffffff;
+                font-size: 14px;
+                line-height: 40px;
+            }
+            a:hover {
+                color: #00c2f0;
+            }
+        }
+        li:first-child {
+            border: none;
+            padding: 0;
+        }
+    }
+    &__img {
+        text-align: center;
+    }
+}
