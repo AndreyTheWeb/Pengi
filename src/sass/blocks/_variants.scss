@@ -1,0 +1,49 @@
+.variants {
+    position: relative;
+    margin-top: 80px;
+    &__header {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+        width: 100%;
+    }
+    h3 {
+        color: #ffffff;
+        text-align: center;
+        background-color: rgba(53, 133, 153, 0.6);
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+    &__wrapper {
+        display: flex;
+        height: 580px;
+        h4 {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 22px;
+        }
+        p {
+            color: #ffffff;
+            font-size: 15px;
+            line-height: 26px;
+            font-weight: 400;
+        }
+    }
+    &__item {
+        &_text {
+            padding: 275px 100px;
+        }
+        &_left {
+            background: url('../img/variants/1.png') no-repeat center/cover;
+            width: 50%;
+            text-align: right;
+        }
+        &_right {
+            background: url('../img/variants/2.png') no-repeat center/cover;
+            width: 50%;
+            text-align: left;
+        }
+    }
+}
